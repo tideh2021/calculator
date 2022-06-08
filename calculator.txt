@@ -1,0 +1,7 @@
+This app is starting as a Simple Calculator app and most likely progress
+to simple scientific calculator.
+My main reason of adding some scientific operations is to distinguish
+it from all others on the internet.
+https://data-flair.training/blogs/wp-content/uploads/sites/2/2020/07/scientific-calculator-screen.png
+Time: 7 hours 
+Problems: Replacing the "÷" and the "x" took some time I hard to research and manipulate to  get the desired result.

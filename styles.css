@@ -1,0 +1,130 @@
+:root {
+  --white: #fff;
+  --pink: #ffc0cb;
+  --red: #ff0000;
+  --purple: #800080;
+  --black: #000000;
+  --dark: #374151;
+  --dark1: #1F2937;
+  --dark3: #111827;
+  --gray: #687280;
+  --green: #008000;
+  --green1: #036303;
+  --blue: blue;
+  --orange: #ffa500;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(221, 219, 219);
+}
+.container {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  width: 500px;
+  height: auto;
+  background-color: #008000;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+#closeSpan {
+  position: absolute;
+  top: 6px;
+  right: 16px;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--white);
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  color: var(--black);
+}
+
+.cal_wrapper {
+  position: relative;
+  width: 350px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border: 12px solid rgb(87, 87, 87);
+  border-radius: 8px;
+  box-shadow: 0px 0px 43px 17px rgba(152, 153, 152, 1);
+}
+.displayBoard {
+width: 100%;
+height: 100px;
+overflow: hidden;
+word-break: break-all;
+border-bottom: 12px solid gray;
+background-color: black;
+word-wrap: break-word;
+padding: 5px;
+}
+
+.display1,
+.display_win {
+  width: 100%;
+  height: 50%;
+  color: var(--white);
+  font-size: 22px;
+  font-weight: bold;
+  text-align: right;
+overflow: hidden;
+}
+
+.btn_wrapper {
+  display: grid;
+  width: 100%;
+  height: 400px; 
+  background-color: var(--white);
+  grid-template-columns: repeat(4, 1fr); 
+  z-index: 999;
+}
+.button {
+  font-size: 1.8rem;
+}
+.button:hover{
+  background-color: rgba(152, 153, 152, 1);
+  color: white;
+  transition: .05s ease-in-out;
+}
+button.equal {
+  background-color: #ffa500;
+  color: black;
+  border: none;
+}
+.button.equal:hover {
+  background-color: #a16903;
+  transition: .05s ease-in-out;
+}
+.fa-square-root-variable {
+  font-size: 22px;
+}
+
+@media only screen and (max-width: 768px) {
+.container {
+    width: 98%;
+      height: auto;
+}
+h1 {
+  font-size: 28px;
+}
+.cal_wrapper {
+  width: 96%;
+}
+#closeSpan {
+    right: 10px;
+  font-size: 32px;
+}
+}
