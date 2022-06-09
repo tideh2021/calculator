@@ -5,3 +5,5 @@ it from all others on the internet.
 https://data-flair.training/blogs/wp-content/uploads/sites/2/2020/07/scientific-calculator-screen.png
 Time: 7 hours 
 Problems: Replacing the "÷" and the "x" took some time I hard to research and manipulate to  get the desired result.
+Problems: Replacing the "÷" and the "x" took some time I hard to research and manipulate to  get the desired result.
+Added tooltip after , it took me 3 hours to do. Because I had the info class below the text, it did not work. I had to do another div entirely for trial, then I discovered that the problem was the positioning of the info class and the text. I switched their respective position, it worke
